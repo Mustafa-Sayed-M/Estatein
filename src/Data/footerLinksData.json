@@ -1,0 +1,108 @@
+[
+    {
+        "title": "Home",
+        "page": "/",
+        "linksList": [
+            {
+                "href": "header",
+                "label": "Hero Section"
+            },
+            {
+                "href": "",
+                "label": "Features"
+            },
+            {
+                "href": "featuredProperties",
+                "label": "Properties"
+            },
+            {
+                "href": "testimonials",
+                "label": "Testimonials"
+            },
+            {
+                "href": "faqs",
+                "label": "FAQ’s"
+            }
+        ]
+    },
+    {
+        "title": "About Us",
+        "page": "/about",
+        "linksList": [
+            {
+                "href": "",
+                "label": "Our Story"
+            },
+            {
+                "href": "",
+                "label": "Our Works"
+            },
+            {
+                "href": "",
+                "label": "How It Works"
+            },
+            {
+                "href": "",
+                "label": "Our Team"
+            },
+            {
+                "href": "",
+                "label": "Our Clients"
+            }
+        ]
+    },
+    {
+        "title": "Properties",
+        "page": "/properties",
+        "linksList": [
+            {
+                "href": "",
+                "label": "Portfolio"
+            },
+            {
+                "href": "",
+                "label": "Categories"
+            }
+        ]
+    },
+    {
+        "title": "Services",
+        "page": "/services",
+        "linksList": [
+            {
+                "href": "",
+                "label": "Valuation Mastery"
+            },
+            {
+                "href": "",
+                "label": "Strategic Marketing"
+            },
+            {
+                "href": "",
+                "label": "Negotiation Wizardry"
+            },
+            {
+                "href": "",
+                "label": "Closing Success"
+            },
+            {
+                "href": "",
+                "label": "Property Management"
+            }
+        ]
+    },
+    {
+        "title": "Contact Us",
+        "page": "/contact",
+        "linksList": [
+            {
+                "href": "",
+                "label": "Contact Form"
+            },
+            {
+                "href": "",
+                "label": "Our Offices"
+            }
+        ]
+    }
+]

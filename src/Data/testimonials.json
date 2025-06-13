@@ -1,0 +1,110 @@
+[
+    {
+        "rating": 5,
+        "content": {
+            "title": "Exceptional Service!",
+            "description": "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!"
+        },
+        "author": {
+            "name": "Wade Warren",
+            "location": "USA, California",
+            "avatar_url": "https://img.freepik.com/free-photo/portrait-smiling-charming-young-man-grey-t-shirt-standing-against-plain-background_23-2148213406.jpg?t=st=1749300245~exp=1749303845~hmac=31f5ff1cd2ae863dcc394d5f5dcb0a0d0ed32f39853b4a53f7528c60e22eff7c&w=1380"
+        }
+    },
+    {
+        "rating": 4,
+        "content": {
+            "title": "Smooth and Easy Process",
+            "description": "Estatein helped me sell my property quickly and at a great price. The process was smooth and hassle-free!"
+        },
+        "author": {
+            "name": "Courtney Henry",
+            "location": "Canada, Toronto",
+            "avatar_url": "https://img.freepik.com/free-photo/handsome-young-man-with-arms-crossed-white-background_23-2148222620.jpg?t=st=1749300266~exp=1749303866~hmac=c2364f701200953ef44388134452e83540f66bef7f9d7e2f5b934c9c112280fb&w=740"
+        }
+    },
+    {
+        "rating": 5,
+        "content": {
+            "title": "Highly Professional Team",
+            "description": "I was impressed with the professionalism and constant communication. They truly care about their clients."
+        },
+        "author": {
+            "name": "Darlene Robertson",
+            "location": "UK, London",
+            "avatar_url": "https://img.freepik.com/free-photo/portrait-woman-teaching-sign-language_23-2148719728.jpg?t=st=1749300280~exp=1749303880~hmac=d47043985a35ddb755ea974d49bb5d45f5814baa29003d8307c148beedca36fb&w=740"
+        }
+    },
+    {
+        "rating": 5,
+        "content": {
+            "title": "Dream Home Found!",
+            "description": "Thanks to Estatein, I found the perfect apartment in no time. Their platform is super user-friendly."
+        },
+        "author": {
+            "name": "Albert Flores",
+            "location": "USA, New York",
+            "avatar_url": "https://img.freepik.com/free-photo/brunette-man-isolated-white-background_1368-4404.jpg?t=st=1749300295~exp=1749303895~hmac=0b0ab6a909b535df48b1a86594afde1a039f05083330b797d649cf161bdc1f34&w=740"
+        }
+    },
+    {
+        "rating": 4,
+        "content": {
+            "title": "Good Experience Overall",
+            "description": "There were a few delays in paperwork, but the team handled it well. Happy with the service!"
+        },
+        "author": {
+            "name": "Savannah Nguyen",
+            "location": "Australia, Sydney",
+            "avatar_url": "https://img.freepik.com/free-photo/businessman-presenting-something-isolated-white-background_1368-4318.jpg?t=st=1749300318~exp=1749303918~hmac=690b5be3571d7060e79e74a36c77c2b2aadc8f097fd50ea51fab74e811235b1e&w=740"
+        }
+    },
+    {
+        "rating": 5,
+        "content": {
+            "title": "Best Decision Ever!",
+            "description": "Working with Estatein was the best decision. They were responsive, knowledgeable, and supportive throughout the process."
+        },
+        "author": {
+            "name": "Esther Howard",
+            "location": "Germany, Berlin",
+            "avatar_url": "https://img.freepik.com/free-photo/dreamy-positive-woman-with-satisfied-expression-points-with-both-index-fingers-upwards-thinks-about-new-possibilities_273609-17614.jpg?t=st=1749300339~exp=1749303939~hmac=3d0181da03243d8fe62cf083212d46ebffd038cdfebb5c121e89433705febd9b&w=740"
+        }
+    },
+    {
+        "rating": 4,
+        "content": {
+            "title": "Reliable and Honest",
+            "description": "They gave honest opinions and never pushed me into a deal. That made all the difference."
+        },
+        "author": {
+            "name": "Ronald Richards",
+            "location": "USA, Texas",
+            "avatar_url": "https://img.freepik.com/free-photo/glad-young-woman-with-glasses-posing-against-white-wall_273609-20356.jpg?t=st=1749300359~exp=1749303959~hmac=0df612875f2648983981fb2c660f78058dbaa7688ee9af819b2e9beebbd19805&w=740"
+        }
+    },
+    {
+        "rating": 5,
+        "content": {
+            "title": "Great Support",
+            "description": "The support team was always available to answer my questions. Very friendly and helpful!"
+        },
+        "author": {
+            "name": "Cameron Williamson",
+            "location": "France, Paris",
+            "avatar_url": "https://img.freepik.com/free-photo/handsome-young-man-pointing-his-finger-toward-camera-against-orange-backdrop_23-2148120770.jpg?t=st=1749300371~exp=1749303971~hmac=98f900c5b375ca04e85b715a1c29f18c71810c7f7cd03fb551573713e47c291c&w=740"
+        }
+    },
+    {
+        "rating": 5,
+        "content": {
+            "title": "Stress-Free Experience",
+            "description": "From start to finish, it was a stress-free journey. I would definitely recommend them to anyone looking for a new home."
+        },
+        "author": {
+            "name": "Jenny Wilson",
+            "location": "UAE, Dubai",
+            "avatar_url": "https://img.freepik.com/free-photo/smiling-portrait-young-man-showing-time-his-wrist-watch_23-2148119779.jpg?t=st=1749300390~exp=1749303990~hmac=934b28f05250908a4329151940ffceba46ed6c8f5252b686d0cba03f779ecd12&w=740"
+        }
+    }
+]

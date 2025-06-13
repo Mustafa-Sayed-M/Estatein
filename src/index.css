@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+    /* Purple Shades */
+    --color-purple-60: #6b40f7;
+    --color-purple-65: #1A64FF;
+    --color-purple-70: #FF9533;
+    --color-purple-75: #a585fa;
+    --color-purple-90: #FFE4CC;
+    --color-purple-95: #FFF1E5;
+    --color-purple-97: #FFF7F0;
+    --color-purple-99: #FFFCFA;
+    /* White Shades */
+    --color-white-90: #E4E4E7;
+    --color-white-95: #F1F1F3;
+    --color-white-97: #F7F7F8;
+    --color-white-99: #FCFCFD;
+    /* Grey */
+    --color-grey-8: #141414;
+    --color-grey-10: #1A1A1A;
+    --color-grey-15: #262626;
+    --color-grey-20: #333333;
+    --color-grey-30: #4D4D4D;
+    --color-grey-40: #666666;
+    --color-grey-50: #808080;
+    --color-grey-60: #999999;
+}
+
+@utility container {
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
+
+/* Global */
+html,
+body {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+}
+
+p {
+    color: var(--color-grey-60);
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}

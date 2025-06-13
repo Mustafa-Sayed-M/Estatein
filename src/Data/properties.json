@@ -1,0 +1,332 @@
+[
+    {
+        "id": 1,
+        "banner": "https://img.freepik.com/free-photo/3d-house-model-with-modern-architecture_23-2151004024.jpg?t=st=1749751458~exp=1749755058~hmac=7fb29025e2c2d92892f3774cb6e53f758437474c0b2cae25e6a497b9a47e66a3&w=1380",
+        "isFeatured": true,
+        "title": "Seaside Serenity Villa",
+        "description": "Discover your own piece of paradise with the Seaside Serenity Villa. With an open floor plan, breathtaking ocean views, and direct beach access, this property is coastal living at its finest.",
+        "info": {
+            "bedrooms": "4",
+            "bathrooms": "3",
+            "area": "2,550 Square Feet",
+            "type": "Villa"
+        },
+        "location": "Malibu, California",
+        "features": [
+            "Expansive oceanfront terrace",
+            "Gourmet kitchen",
+            "Private beach access",
+            "Spa-inspired master suite",
+            "Private garage"
+        ],
+        "price": "1,250,000"
+    },
+    {
+        "id": 2,
+        "banner": "data:image/jpeg;base64,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",
+        "isFeatured": true,
+        "title": "Urban Luxe Apartment",
+        "description": "Experience modern city living in this stylish downtown apartment with skyline views and top-tier amenities.",
+        "info": {
+            "bedrooms": "2",
+            "bathrooms": "2",
+            "area": "1,200 Square Feet",
+            "type": "Apartment"
+        },
+        "location": "New York, NY",
+        "features": [
+            "24/7 concierge service",
+            "Fitness center",
+            "Rooftop lounge",
+            "Smart home technology",
+            "Underground parking"
+        ],
+        "price": "875,000"
+    },
+    {
+        "id": 3,
+        "banner": "https://img.freepik.com/free-photo/modern-residential-building_1268-14735.jpg?t=st=1749751538~exp=1749755138~hmac=51b166bc70d3b57d20e9b15610e5f6e8dd07b2c85710a785ccb647a8eb227f07&w=1380",
+        "isFeatured": true,
+        "title": "Mountain Retreat Cabin",
+        "description": "Escape to tranquility in this cozy mountain cabin surrounded by nature with stunning panoramic views.",
+        "info": {
+            "bedrooms": "3",
+            "bathrooms": "2",
+            "area": "1,800 Square Feet",
+            "type": "Cabin"
+        },
+        "location": "Aspen, Colorado",
+        "features": [
+            "Fireplace and wood interior",
+            "Large deck with forest view",
+            "Hot tub",
+            "Fully equipped kitchen",
+            "Private hiking trails"
+        ],
+        "price": "680,000"
+    },
+    {
+        "id": 4,
+        "banner": "banner",
+        "isFeatured": true,
+        "title": "Modern Family Home",
+        "description": "A spacious and contemporary home designed for family living in a quiet suburban neighborhood.",
+        "info": {
+            "bedrooms": "5",
+            "bathrooms": "3",
+            "area": "3,200 Square Feet",
+            "type": "House"
+        },
+        "location": "Austin, Texas",
+        "features": [
+            "Open-concept kitchen",
+            "Backyard with pool",
+            "Energy-efficient appliances",
+            "Attached garage",
+            "Home office"
+        ],
+        "price": "950,000"
+    },
+    {
+        "id": 5,
+        "banner": "banner",
+        "isFeatured": true,
+        "title": "Lakeview Penthouse",
+        "description": "Luxury penthouse with stunning lake views and high-end interior finishes in an exclusive building.",
+        "info": {
+            "bedrooms": "3",
+            "bathrooms": "3",
+            "area": "2,300 Square Feet",
+            "type": "Penthouse"
+        },
+        "location": "Chicago, Illinois",
+        "features": [
+            "Floor-to-ceiling windows",
+            "Private rooftop access",
+            "Designer kitchen",
+            "Heated floors",
+            "Concierge service"
+        ],
+        "price": "1,150,000"
+    },
+    {
+        "id": 6,
+        "banner": "banner",
+        "isFeatured": true,
+        "title": "Countryside Estate",
+        "description": "Experience peaceful rural life in this spacious estate surrounded by fields and woodlands.",
+        "info": {
+            "bedrooms": "6",
+            "bathrooms": "4",
+            "area": "4,800 Square Feet",
+            "type": "Estate"
+        },
+        "location": "Nashville, Tennessee",
+        "features": [
+            "Horse stables",
+            "Private pond",
+            "Multiple fireplaces",
+            "Wraparound porch",
+            "Gated entrance"
+        ],
+        "price": "1,600,000"
+    },
+    {
+        "id": 7,
+        "banner": "banner",
+        "isFeatured": false,
+        "title": "Historic Townhouse",
+        "description": "A beautifully preserved historic townhouse offering charm and character in every detail.",
+        "info": {
+            "bedrooms": "4",
+            "bathrooms": "3",
+            "area": "2,800 Square Feet",
+            "type": "Townhouse"
+        },
+        "location": "Boston, Massachusetts",
+        "features": [
+            "Brick façade",
+            "Hardwood floors",
+            "Antique moldings",
+            "Private courtyard",
+            "Renovated kitchen"
+        ],
+        "price": "1,050,000"
+    },
+    {
+        "id": 8,
+        "banner": "banner",
+        "isFeatured": false,
+        "title": "Luxury Desert Villa",
+        "description": "Live in style in this modern desert villa with sleek architecture and breathtaking sunset views.",
+        "info": {
+            "bedrooms": "5",
+            "bathrooms": "4",
+            "area": "3,600 Square Feet",
+            "type": "Villa"
+        },
+        "location": "Scottsdale, Arizona",
+        "features": [
+            "Infinity pool",
+            "Open living area",
+            "Floor-to-ceiling glass",
+            "Desert landscaping",
+            "Smart home system"
+        ],
+        "price": "1,375,000"
+    },
+    {
+        "id": 9,
+        "banner": "banner",
+        "isFeatured": false,
+        "title": "Eco-Friendly Smart Home",
+        "description": "Sustainable living in this smart home built with eco-conscious materials and technologies.",
+        "info": {
+            "bedrooms": "4",
+            "bathrooms": "3",
+            "area": "2,400 Square Feet",
+            "type": "House"
+        },
+        "location": "Portland, Oregon",
+        "features": [
+            "Solar panels",
+            "Rainwater harvesting",
+            "Energy-efficient insulation",
+            "Voice-controlled automation",
+            "Green roof"
+        ],
+        "price": "995,000"
+    },
+    {
+        "id": 10,
+        "banner": "banner",
+        "isFeatured": false,
+        "title": "Stylish Studio Apartment",
+        "description": "A compact yet luxurious studio in a central urban location, perfect for professionals and students.",
+        "info": {
+            "bedrooms": "1",
+            "bathrooms": "1",
+            "area": "600 Square Feet",
+            "type": "Studio"
+        },
+        "location": "San Francisco, California",
+        "features": [
+            "Modern interior design",
+            "Fully furnished",
+            "High-speed internet",
+            "Security system",
+            "Laundry facilities"
+        ],
+        "price": "480,000"
+    },
+    {
+        "id": 11,
+        "banner": "banner",
+        "isFeatured": false,
+        "title": "Beachside Bungalow",
+        "description": "Relax in this charming bungalow just steps from the beach, ideal for weekend getaways.",
+        "info": {
+            "bedrooms": "2",
+            "bathrooms": "2",
+            "area": "1,100 Square Feet",
+            "type": "Bungalow"
+        },
+        "location": "Key West, Florida",
+        "features": [
+            "Beach access",
+            "Outdoor shower",
+            "Tropical garden",
+            "Cozy interior",
+            "Wooden deck"
+        ],
+        "price": "720,000"
+    },
+    {
+        "id": 12,
+        "banner": "banner",
+        "isFeatured": false,
+        "title": "Golf Course Mansion",
+        "description": "A luxurious mansion overlooking a championship golf course, built for leisure and entertainment.",
+        "info": {
+            "bedrooms": "6",
+            "bathrooms": "5",
+            "area": "5,200 Square Feet",
+            "type": "Mansion"
+        },
+        "location": "Orlando, Florida",
+        "features": [
+            "Home theater",
+            "Game room",
+            "Wine cellar",
+            "Jacuzzi",
+            "Golf cart garage"
+        ],
+        "price": "2,100,000"
+    },
+    {
+        "id": 13,
+        "banner": "banner",
+        "isFeatured": false,
+        "title": "Modern Duplex",
+        "description": "A contemporary duplex offering flexibility for multi-family living or rental income.",
+        "info": {
+            "bedrooms": "4",
+            "bathrooms": "4",
+            "area": "2,600 Square Feet",
+            "type": "Duplex"
+        },
+        "location": "Seattle, Washington",
+        "features": [
+            "Separate entrances",
+            "Modern kitchen",
+            "Outdoor patio",
+            "In-unit laundry",
+            "High ceilings"
+        ],
+        "price": "890,000"
+    },
+    {
+        "id": 14,
+        "banner": "banner",
+        "isFeatured": false,
+        "title": "Luxury Loft in Arts District",
+        "description": "Stunning open-space loft located in the heart of the creative district, with industrial charm.",
+        "info": {
+            "bedrooms": "2",
+            "bathrooms": "2",
+            "area": "1,700 Square Feet",
+            "type": "Loft"
+        },
+        "location": "Los Angeles, California",
+        "features": [
+            "Exposed brick walls",
+            "High-end finishes",
+            "Creative space",
+            "Skylights",
+            "Private balcony"
+        ],
+        "price": "980,000"
+    },
+    {
+        "id": 15,
+        "banner": "banner",
+        "isFeatured": false,
+        "title": "Suburban Smart Townhouse",
+        "description": "Convenient and comfortable living in this high-tech townhouse located in a peaceful community.",
+        "info": {
+            "bedrooms": "3",
+            "bathrooms": "2",
+            "area": "1,850 Square Feet",
+            "type": "Townhouse"
+        },
+        "location": "Charlotte, North Carolina",
+        "features": [
+            "Smart thermostats",
+            "Built-in speakers",
+            "Community pool",
+            "Two-car garage",
+            "Private backyard"
+        ],
+        "price": "725,000"
+    }
+]
