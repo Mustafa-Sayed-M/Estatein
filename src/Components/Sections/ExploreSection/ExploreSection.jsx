@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function ExploreSection() {
     return (
         <section className="explore-section py-10 border-t-2 border-t-grey-15" id="section">
-            <div className="container flex items-center justify-between gap-10">
+            <div className="container flex md:items-center justify-between gap-10 max-md:flex-col">
                 {/* Text Wrapper */}
                 <div className="text-wrapper flex-1">
                     <h2 className="text-4xl font-semibold mb-3">Start Your Real Estate Journey Today</h2>
@@ -16,7 +16,7 @@ function ExploreSection() {
                 {/* Explore Properties */}
                 <Link
                     to={'/properties'}
-                    className="block py-2 px-4 rounded-md bg-purple-60 font-medium"
+                    className="block py-2 px-4 rounded-md bg-purple-60 font-medium text-center"
                 >
                     Explore Properties
                 </Link>
