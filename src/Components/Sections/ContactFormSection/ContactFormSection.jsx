@@ -101,12 +101,12 @@ const validationSchema = {
 function ContactFormSection() {
     return (
         <section className="contact-form-section py-10" id="contactFrom">
-            {/* Section Header */}
-            <SectionHeader
-                title="Let's Connect"
-                description={`We're excited to connect with you and learn more about your real estate goals. Use the form below to get in touch with Estatein. Whether you're a prospective client, partner, or simply curious about our services, we're here to answer your questions and provide the assistance you need.`}
-            />
             <div className="container">
+                {/* Section Header */}
+                <SectionHeader
+                    title="Let's Connect"
+                    description={`We're excited to connect with you and learn more about your real estate goals. Use the form below to get in touch with Estatein. Whether you're a prospective client, partner, or simply curious about our services, we're here to answer your questions and provide the assistance you need.`}
+                />
                 {/* Formik Container */}
                 <div className="formik-container p-3 sm:p-5 lg:p-10 rounded-3xl border border-grey-15">
                     <Formik

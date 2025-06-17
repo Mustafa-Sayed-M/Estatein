@@ -13,17 +13,17 @@ function FaqsSection() {
 
     return (
         <section className="faqs-section py-10" id="faqs">
-            {/* Section Header */}
-            <SectionHeader
-                title="Frequently Asked Questions"
-                description={`Find answers to common questions about Estatein's services, property listings, and the real estate process. We're here to provide clarity and assist you every step of the way.`}
-            >
-                <Link
-                    to=''
-                    className="block text-center py-2 px-4 rounded-md bg-grey-10 border border-grey-15 transition sm:hover:bg-grey-15"
-                >View All FAQ's</Link>
-            </SectionHeader>
             <div className="container">
+                {/* Section Header */}
+                <SectionHeader
+                    title="Frequently Asked Questions"
+                    description={`Find answers to common questions about Estatein's services, property listings, and the real estate process. We're here to provide clarity and assist you every step of the way.`}
+                >
+                    <Link
+                        to=''
+                        className="block text-center py-2 px-4 rounded-md bg-grey-10 border border-grey-15 transition sm:hover:bg-grey-15"
+                    >View All FAQ's</Link>
+                </SectionHeader>
                 {/* Swiper Slider of Faqs */}
                 <Swiper
                     spaceBetween={20}

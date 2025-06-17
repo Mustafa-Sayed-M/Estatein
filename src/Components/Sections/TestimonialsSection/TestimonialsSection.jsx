@@ -13,17 +13,17 @@ function TestimonialsSection() {
 
     return (
         <section className="testimonials-section py-10" id="testimonials">
-            {/* Section Header */}
-            <SectionHeader
-                title="What Our Clients Say"
-                description={`Read the success stories and heartfelt testimonials from our valued clients. Discover why they chose Estatein for their real estate needs.`}
-            >
-                <Link
-                    to=''
-                    className="block text-center py-2 px-4 rounded-md bg-grey-10 border border-grey-15 transition sm:hover:bg-grey-15"
-                >View All Testimonials</Link>
-            </SectionHeader>
             <div className="container">
+                {/* Section Header */}
+                <SectionHeader
+                    title="What Our Clients Say"
+                    description={`Read the success stories and heartfelt testimonials from our valued clients. Discover why they chose Estatein for their real estate needs.`}
+                >
+                    <Link
+                        to=''
+                        className="block text-center py-2 px-4 rounded-md bg-grey-10 border border-grey-15 transition sm:hover:bg-grey-15"
+                    >View All Testimonials</Link>
+                </SectionHeader>
                 {/* Swiper Slider of Testimonials */}
                 <Swiper
                     spaceBetween={20}
