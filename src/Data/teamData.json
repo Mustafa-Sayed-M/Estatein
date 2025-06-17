@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Max Mitchell",
+        "position": "Founder",
+        "message": "Say Hello 👋",
+        "image": "/assets/images/team/1.png",
+        "twitterProfile": "https: //x.com/sh3done1"
+    },
+    {
+        "name": "Sarah Johnson",
+        "position": "Chief Real Estate Officer",
+        "message": "Say Hello 👋",
+        "image": "/assets/images/team/2.png",
+        "twitterProfile": "https://x.com/sh3dowone1"
+    },
+    {
+        "name": "David Brown",
+        "position": "Head of Property Management",
+        "message": "Say Hello 👋",
+        "image": "/assets/images/team/3.png",
+        "twitterProfile": "https://x.com/sh3dowone1"
+    },
+    {
+        "name": "Michael Turner",
+        "position": "Legal Counsel",
+        "message": "Say Hello 👋",
+        "image": "/assets/images/team/4.png",
+        "twitterProfile": "https://x.com/sh3dowone1"
+    }
+]

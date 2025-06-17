@@ -1,4 +1,6 @@
 import SectionHeader from "../Components/SectionHeader";
+import achievementsData from "../../../Data/achievements.json";
+import AchievementCard from "./Components/AchievementCard";
 
 function AchievementsSection() {
     return (
@@ -9,7 +11,12 @@ function AchievementsSection() {
                     title="Our Achievements"
                     description={`Our story is one of continuous growth and evolution. We started as a small team with big dreams, determined to create a real estate platform that transcended the ordinary.`}
                 />
-                Achievements Section
+                {/*  */}
+                <div className="achievements grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+                    {
+                        achievementsData.map((achievementItem, index) => (<AchievementCard achievementData={achievementItem} key={index} />))
+                    }
+                </div>
             </div>
         </section>
     )

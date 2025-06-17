@@ -1,0 +1,82 @@
+[
+    {
+        "since": 2019,
+        "name": "ABC Corporation",
+        "domain": "Commercial Real Estate",
+        "category": "Luxury Home Development",
+        "testimonial": "Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs.",
+        "website": "https://abc-corp.com"
+    },
+    {
+        "since": 2018,
+        "name": "GreenTech Enterprises",
+        "domain": "Commercial Real Estate",
+        "category": "Retail Space",
+        "testimonial": "Estatein’s ability to identify prime retail locations helped us expand our brand presence. They are a trusted partner in our growth.",
+        "website": "https://greentech.com"
+    },
+    {
+        "since": 2020,
+        "name": "Skyline Ventures",
+        "domain": "Residential Real Estate",
+        "category": "Urban Living",
+        "testimonial": "Thanks to Estatein, we secured premium urban plots that fit our vision perfectly. Their insight into the market is unmatched.",
+        "website": "https://skylineventures.com"
+    },
+    {
+        "since": 2021,
+        "name": "NextGen Retail",
+        "domain": "Retail Real Estate",
+        "category": "Shopping Malls",
+        "testimonial": "The team at Estatein helped us identify lucrative locations for our new malls. Their strategy and planning are top-notch.",
+        "website": "https://nextgenretail.com"
+    },
+    {
+        "since": 2017,
+        "name": "SolarRise Energy",
+        "domain": "Industrial Real Estate",
+        "category": "Energy Facilities",
+        "testimonial": "Estatein provided us with the perfect industrial spaces to set up our energy hubs. Very professional team.",
+        "website": "https://solarriseenergy.com"
+    },
+    {
+        "since": 2022,
+        "name": "EduSmart",
+        "domain": "Institutional Real Estate",
+        "category": "Educational Campuses",
+        "testimonial": "Estatein understood our unique requirements for education-focused spaces and delivered beyond expectations.",
+        "website": "https://edusmart.org"
+    },
+    {
+        "since": 2016,
+        "name": "AeroLogix",
+        "domain": "Logistics Real Estate",
+        "category": "Warehousing",
+        "testimonial": "With Estatein's support, we expanded our warehouse operations across multiple cities with ease.",
+        "website": "https://aerologix.com"
+    },
+    {
+        "since": 2015,
+        "name": "Wellness First",
+        "domain": "Healthcare Real Estate",
+        "category": "Medical Centers",
+        "testimonial": "They helped us secure modern, accessible spaces for our clinics. Highly recommend working with Estatein.",
+        "website": "https://wellnessfirsthealth.com"
+    },
+    {
+        "since": 2019,
+        "name": "FinCore Capital",
+        "domain": "Commercial Real Estate",
+        "category": "Financial Hubs",
+        "testimonial": "Estatein helped us set up offices in high-profile financial districts, boosting our visibility and access.",
+        "website": "https://fincorecapital.com"
+    },
+    {
+        "since": 2023,
+        "name": "Culinary Square",
+        "domain": "Hospitality Real Estate",
+        "category": "Restaurant Chains",
+        "testimonial": "They identified great high-traffic locations for our restaurant expansions. Amazing results!",
+        "website": "https://culinarysquare.com"
+    }
+]
