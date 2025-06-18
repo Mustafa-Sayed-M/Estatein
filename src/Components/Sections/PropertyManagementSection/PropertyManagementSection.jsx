@@ -1,4 +1,6 @@
 import SectionHeader from "../Components/SectionHeader";
+import propertyManagementData from "../../../Data/effortlessPropertyManagementData.json";
+import PropertyManagementCard from "./Components/PropertyManagementCard";
 
 function PropertyManagementSection() {
     return (
@@ -9,7 +11,12 @@ function PropertyManagementSection() {
                     title="Effortless Property Management"
                     description={`Owning a property should be a pleasure, not a hassle. Estatein's Property Management Service takes the stress out of property ownership, offering comprehensive solutions tailored to your needs. Explore the categories below to see how we can make property management effortless for you`}
                 />
-                Property Management Section
+                {/* Property Management  Cards */}
+                <div className="property-management-cards grid gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+                    {
+                        propertyManagementData.map((item, index) => (<PropertyManagementCard data={item} key={index} />))
+                    }
+                </div>
             </div>
         </section>
     )

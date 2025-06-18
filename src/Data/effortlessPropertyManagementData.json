@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Tenant Harmony",
+        "description": "Our Tenant Management services ensure that your tenants have a smooth and reducing vacancies.",
+        "icon": "fa-solid fa-house fa-fw"
+    },
+    {
+        "name": "Maintenance Ease",
+        "description": "Say goodbye to property maintenance headaches. We handle all aspects of property upkeep.",
+        "icon": "fa-solid fa-house fa-fw"
+    },
+    {
+        "name": "Financial Peace of Mind",
+        "description": "Managing property finances can be complex. Our financial experts take care of rent collection",
+        "icon": "fa-solid fa-house fa-fw"
+    },
+    {
+        "name": "Legal Guardian",
+        "description": "Stay compliant with property laws and regulations effortlessly.",
+        "icon": "fa-solid fa-house fa-fw"
+    }
+]
