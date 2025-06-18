@@ -2,7 +2,7 @@ import { ErrorMessage } from "formik";
 
 function FormikTextareaGroup({ label, ...textareaData }) {
     return (
-        <div className="field-group col-span-1 md:col-span-2 xl:col-span-3">
+        <div className="field-group col-span-1 md:col-span-2 lg:col-span-3 2xl:col-span-4">
             {/* Label */}
             <label htmlFor={textareaData.id}>{label}</label>
             {/* Select Field */}

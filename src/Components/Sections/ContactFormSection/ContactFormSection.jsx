@@ -1,9 +1,9 @@
 import { Formik } from "formik";
 import SectionHeader from "../Components/SectionHeader";
 import * as Yup from 'yup';
-import FormikInputGroup from "./Components/FormikInputGroup";
-import FormikSelectGroup from "./Components/FormikSelectGroup";
-import FormikTextareaGroup from "./Components/FormikTextareaGroup";
+import FormikInputGroup from "../../Atoms/FormikInputGroup";
+import FormikSelectGroup from "../../Atoms/FormikSelectGroup";
+import FormikTextareaGroup from "../../Atoms/FormikTextareaGroup";
 import { Link } from "react-router-dom";
 
 const inputsList = [
