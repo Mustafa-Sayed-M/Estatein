@@ -1,5 +1,5 @@
-import SectionHeader from "../Components/SectionHeader";
 import unlockPropertyData from "../../../Data/unlockPropertyData.json";
+import SectionHeader from "../../UI/SectionHeader";
 import UnlockPropertyCard from "./Components/UnlockPropertyCard";
 
 function UnlockPropertySection() {

@@ -1,6 +1,6 @@
-import DiscoverPropertiesSection from "../Components/Sections/DiscoverPropertiesSection/DiscoverPropertiesSection";
-import InquirySection from "../Components/Sections/InquirySection/InquirySection";
-import PropertiesSearchSection from "../Components/Sections/PropertiesSearchSection/PropertiesSearchSection";
+import DiscoverPropertiesSection from "../Components/Sections/DiscoverPropertiesSection";
+import InquirySection from "../Components/Sections/InquirySection";
+import PropertiesSearchSection from "../Components/Sections/PropertiesSearchSection";
 
 function PropertiesPage() {
     return (

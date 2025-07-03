@@ -1,10 +1,10 @@
 import { Formik } from "formik";
-import SectionHeader from "../Components/SectionHeader";
 import * as Yup from 'yup';
-import FormikInputGroup from "../../Atoms/FormikInputGroup";
-import FormikSelectGroup from "../../Atoms/FormikSelectGroup";
-import FormikTextareaGroup from "../../Atoms/FormikTextareaGroup";
 import { Link } from "react-router-dom";
+import SectionHeader from '../../UI/SectionHeader'
+import FormikInputGroup from '../../UI/FormikInputGroup'
+import FormikSelectGroup from '../../UI/FormikSelectGroup'
+import FormikTextareaGroup from '../../UI/FormikTextareaGroup'
 
 const inputsList = [
     {
@@ -42,21 +42,48 @@ const inputsList = [
 ];
 const selectsList = [
     {
-        id: "inquiryType",
+        id: "location",
         type: "text",
-        name: "inquiry_type",
-        label: "Inquiry Type",
+        name: "location",
+        label: "Preferred Location",
         options: [
-            { value: "", label: "Select Inquiry Type" }
+            { value: "", label: "Select Location" }
         ]
     },
     {
-        id: "howDidYouHearAboutUs",
+        id: "propertyType",
         type: "text",
-        name: "how_did_you_hear_about_us",
-        label: "How Did You Hear About Us?",
+        name: "property_type",
+        label: "Property Type",
         options: [
-            { value: "", label: "Select" }
+            { value: "", label: "Select Property Type" }
+        ]
+    },
+    {
+        id: "bedrooms",
+        type: "number",
+        name: "bedrooms",
+        label: "No. of Bedrooms",
+        options: [
+            { value: "", label: "Select no. of Bedrooms" }
+        ]
+    },
+    {
+        id: "bathrooms",
+        type: "number",
+        name: "bathrooms",
+        label: "No. of Bathrooms",
+        options: [
+            { value: "", label: "Select no. of Bathrooms" }
+        ]
+    },
+    {
+        id: "budget",
+        type: "number",
+        name: "budget",
+        label: "Budget",
+        options: [
+            { value: "", label: "Select Budget" }
         ]
     },
 ];
@@ -73,8 +100,11 @@ const initialValues = {
     last_name: "",
     email: "",
     phone: "",
-    inquiry_type: "",
-    how_did_you_hear_about_us: "",
+    location: "",
+    propertyType: "",
+    bedrooms: "",
+    bathrooms: "",
+    budget: "",
     message: ""
 };
 const validationSchema = {
@@ -98,14 +128,14 @@ const validationSchema = {
         .max(100, "Minimum length 100 characters")
 };
 
-function ContactFormSection() {
+function InquirySection() {
     return (
-        <section className="contact-form-section py-10" id="contactFrom">
+        <section className="inquiry-section py-10" id="inquiry">
             <div className="container">
                 {/* Section Header */}
                 <SectionHeader
-                    title="Let's Connect"
-                    description={`We're excited to connect with you and learn more about your real estate goals. Use the form below to get in touch with Estatein. Whether you're a prospective client, partner, or simply curious about our services, we're here to answer your questions and provide the assistance you need.`}
+                    title="Let's Make it Happen"
+                    description={`Ready to take the first step toward your dream property? Fill out the form below, and our real estate wizards will work their magic to find your perfect match. Don't wait; let's embark on this exciting journey together.`}
                 />
                 {/* Formik Container */}
                 <div className="formik-container p-3 sm:p-5 lg:p-10 rounded-3xl border border-grey-15">
@@ -124,7 +154,7 @@ function ContactFormSection() {
                         }) => (
                             <form onSubmit={handleSubmit}>
                                 {/* Fields Container */}
-                                <div className="fields-wrapper mb-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+                                <div className="fields-wrapper mb-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4">
                                     {/* Inputs */}
                                     {
                                         inputsList.map(({ ...inputData }, index) => (<FormikInputGroup
@@ -202,4 +232,4 @@ function ContactFormSection() {
     )
 }
 
-export default ContactFormSection;
+export default InquirySection;

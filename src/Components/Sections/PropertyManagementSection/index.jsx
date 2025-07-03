@@ -1,5 +1,5 @@
-import SectionHeader from "../Components/SectionHeader";
 import propertyManagementData from "../../../Data/effortlessPropertyManagementData.json";
+import SectionHeader from "../../UI/SectionHeader";
 import PropertyManagementCard from "./Components/PropertyManagementCard";
 
 function PropertyManagementSection() {

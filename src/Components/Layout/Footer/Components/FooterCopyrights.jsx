@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import socialProfiles from '../../../Data/socialProfiles.json';
+import socialProfiles from '../../../../Data/socialProfiles.json';
 
 function FooterCopyrights() {
     return (

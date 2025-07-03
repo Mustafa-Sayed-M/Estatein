@@ -1,6 +1,6 @@
-import PropertyManagementSection from "../Components/Sections/PropertyManagementSection/PropertyManagementSection";
-import SmartInvestmentsSection from "../Components/Sections/SmartInvestmentsSection/SmartInvestmentsSection";
-import UnlockPropertySection from "../Components/Sections/UnlockPropertySection/UnlockPropertySection";
+import PropertyManagementSection from "../Components/Sections/PropertyManagementSection";
+import SmartInvestmentsSection from "../Components/Sections/SmartInvestmentsSection";
+import UnlockPropertySection from "../Components/Sections/UnlockPropertySection";
 
 function ServicesPage() {
     return (

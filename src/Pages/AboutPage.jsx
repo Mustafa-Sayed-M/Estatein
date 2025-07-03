@@ -1,9 +1,9 @@
-import AchievementsSection from "../Components/Sections/AchievementsSection/AchievementsSection";
-import ClientsSection from "../Components/Sections/ClientsSection/ClientsSection";
-import HowItWeWorkSection from "../Components/Sections/HowItWeWorkSection/HowItWeWorkSection";
-import JourneySection from "../Components/Sections/JourneySection/JourneySection";
-import TeamSection from "../Components/Sections/TeamSection/TeamSection";
-import ValuesSection from "../Components/Sections/ValuesSection/ValuesSection";
+import AchievementsSection from "../Components/Sections/AchievementsSection";
+import ClientsSection from "../Components/Sections/ClientsSection";
+import HowItWeWorkSection from "../Components/Sections/HowItWeWorkSection";
+import JourneySection from "../Components/Sections/JourneySection";
+import TeamSection from "../Components/Sections/TeamSection";
+import ValuesSection from "../Components/Sections/ValuesSection";
 
 function AboutPage() {
     return (

@@ -1,7 +1,7 @@
-import AppLogo from "../Atoms/AppLogo";
+import AppLogo from "../../UI/AppLogo";
 import FooterCopyrights from "./Components/FooterCopyrights";
 import LinksComponent from "./Components/LinksComponent";
-import linksData from '../../Data/footerLinksData.json';
+import linksData from '../../../Data/footerLinksData.json';
 
 function Footer() {
     return (

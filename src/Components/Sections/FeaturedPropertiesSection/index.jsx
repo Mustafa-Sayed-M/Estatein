@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import SectionHeader from "../Components/SectionHeader";
-import PropertiesSlider from "../Components/PropertiesSlider/PropertiesSlider";
 import propertiesData from '../../../Data/properties.json';
-import SwiperSliderControllers from "../Components/SwiperSliderControllers";
+import SectionHeader from "../../UI/SectionHeader";
+import PropertiesSlider from "../../UI/PropertiesSlider";
+import SwiperSliderControllers from "../../UI/PropertiesSlider/Components/SwiperSliderControllers";
 
 function FeaturedPropertiesSection() {
 

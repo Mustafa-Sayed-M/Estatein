@@ -1,6 +1,6 @@
 import NavLinks from "./Components/NavLinks";
-import AppLogo from "../Atoms/AppLogo";
-import ContactLink from "../Atoms/ContactLink";
+import AppLogo from "../../UI/AppLogo";
+import ContactLink from "../../UI/ContactLink";
 import NavMenuToggler from "./Components/NavMenuToggler";
 
 function Nav() {

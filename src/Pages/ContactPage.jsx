@@ -1,5 +1,5 @@
-import ContactFormSection from "../Components/Sections/ContactFormSection/ContactFormSection";
-import OfficeLocationsSection from "../Components/Sections/OfficeLocationsSection/OfficeLocationsSection";
+import ContactFormSection from "../Components/Sections/ContactFormSection";
+import OfficeLocationsSection from "../Components/Sections/OfficeLocationsSection";
 
 function ContactPage() {
     return (

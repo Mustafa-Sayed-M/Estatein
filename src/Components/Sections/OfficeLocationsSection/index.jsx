@@ -1,8 +1,8 @@
 import React from "react";
-import SectionHeader from "../Components/SectionHeader";
 import OfficeLocationsTabs from "./Components/OfficeLocationsTabs";
 import officeLocationsData from '../../../Data/officeLocations.json';
 import OfficeLocationCard from "./Components/OfficeLocationCard";
+import SectionHeader from "../../UI/SectionHeader";
 
 function OfficeLocationsSection() {
 

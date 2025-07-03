@@ -1,5 +1,5 @@
-import SectionHeader from "../Components/SectionHeader";
 import achievementsData from "../../../Data/achievements.json";
+import SectionHeader from "../../UI/SectionHeader";
 import AchievementCard from "./Components/AchievementCard";
 
 function AchievementsSection() {

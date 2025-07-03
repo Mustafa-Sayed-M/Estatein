@@ -1,33 +1,38 @@
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from "swiper/modules";
-import SectionHeader from "../Components/SectionHeader";
-import testimonialsData from '../../../Data/testimonials.json';
-import SwiperSliderControllers from "../Components/SwiperSliderControllers";
-import TestimonialCard from "./Components/TestimonialCard";
+import faqsData from '../../../Data/faqs.json';
+import FaqCard from "./Components/FaqCard";
+import SectionHeader from "../../UI/SectionHeader";
+import SwiperSliderControllers from "../../UI/PropertiesSlider/Components/SwiperSliderControllers";
 
-function TestimonialsSection() {
+function FaqsSection() {
 
-    const swiperSliderPrevClassname = 'testimonial-prev-btn';
-    const swiperSliderNextClassname = 'testimonial-next-btn';
+    const swiperSliderPrevClassname = 'faqs-prev-btn';
+    const swiperSliderNextClassname = 'faqs-next-btn';
 
     return (
-        <section className="testimonials-section py-10" id="testimonials">
+        <section className="faqs-section py-10" id="faqs">
             <div className="container">
                 {/* Section Header */}
                 <SectionHeader
-                    title="What Our Clients Say"
-                    description={`Read the success stories and heartfelt testimonials from our valued clients. Discover why they chose Estatein for their real estate needs.`}
+                    title="Frequently Asked Questions"
+                    description={`Find answers to common questions about Estatein's services, property listings, and the real estate process. We're here to provide clarity and assist you every step of the way.`}
                 >
                     <Link
                         to=''
                         className="block text-center py-2 px-4 rounded-md bg-grey-10 border border-grey-15 transition sm:hover:bg-grey-15"
-                    >View All Testimonials</Link>
+                    >View All FAQ's</Link>
                 </SectionHeader>
-                {/* Swiper Slider of Testimonials */}
+                {/* Swiper Slider of Faqs */}
                 <Swiper
                     spaceBetween={20}
+                    slidesPerView={3}
                     modules={[Navigation]}
+                    navigation={{
+                        prevEl: "." + swiperSliderPrevClassname,
+                        nextEl: "." + swiperSliderNextClassname
+                    }}
                     breakpoints={{
                         0: {
                             slidesPerView: 1
@@ -45,14 +50,10 @@ function TestimonialsSection() {
                             slidesPerView: 3
                         },
                     }}
-                    navigation={{
-                        prevEl: "." + swiperSliderPrevClassname,
-                        nextEl: "." + swiperSliderNextClassname
-                    }}
                 >
                     {
-                        testimonialsData.map((testimonial, index) => (<SwiperSlide key={index}>
-                            <TestimonialCard testimonialData={testimonial} />
+                        faqsData.map((faq, index) => (<SwiperSlide key={index}>
+                            <FaqCard faqData={faq} />
                         </SwiperSlide>))
                     }
                 </Swiper>
@@ -60,7 +61,7 @@ function TestimonialsSection() {
                 <SwiperSliderControllers
                     prevBtnClassName={swiperSliderPrevClassname}
                     nextBtnClassName={swiperSliderNextClassname}
-                    slidesCount={testimonialsData.length}
+                    slidesCount={faqsData.length}
                     currentSlide={1}
                 />
             </div>
@@ -68,4 +69,4 @@ function TestimonialsSection() {
     )
 }
 
-export default TestimonialsSection;
+export default FaqsSection;

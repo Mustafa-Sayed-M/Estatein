@@ -7,10 +7,10 @@ import PropertyDetailsPage from "./Pages/PropertyDetailsPage";
 import ServicesPage from "./Pages/ServicesPage";
 import ContactPage from "./Pages/ContactPage";
 // Components
-import Topbar from "./Components/Topbar/Topbar";
-import Nav from './Components/Nav/Nav';
-import ExploreSection from "./Components/Sections/ExploreSection/ExploreSection";
-import Footer from './Components/Footer/Footer';
+import Topbar from "./Components/Layout/Topbar/Topbar";
+import Nav from './Components/Layout/Nav/Nav';
+import ExploreSection from "./Components/Sections/ExploreSection";
+import Footer from './Components/Layout/Footer/Footer';
 
 function App() {
   return (

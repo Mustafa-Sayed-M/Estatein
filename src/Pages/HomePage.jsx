@@ -1,7 +1,7 @@
-import Header from "../Components/Header/Header";
-import FaqsSection from "../Components/Sections/FaqsSection/FaqsSection";
-import FeaturedPropertiesSection from "../Components/Sections/FeaturedPropertiesSection/FeaturedPropertiesSection";
-import TestimonialsSection from "../Components/Sections/TestimonialsSection/TestimonialsSection";
+import Header from "../Components/Layout/Header/Header";
+import FaqsSection from "../Components/Sections/FaqsSection";
+import FeaturedPropertiesSection from "../Components/Sections/FeaturedPropertiesSection";
+import TestimonialsSection from "../Components/Sections/TestimonialsSection";
 
 function HomePage() {
     return (

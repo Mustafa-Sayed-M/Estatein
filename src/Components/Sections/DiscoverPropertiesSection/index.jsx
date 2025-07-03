@@ -1,7 +1,7 @@
-import SectionHeader from "../Components/SectionHeader";
 import propertiesData from '../../../Data/properties.json';
-import PropertiesSlider from "../Components/PropertiesSlider/PropertiesSlider";
-import SwiperSliderControllers from "../Components/SwiperSliderControllers";
+import PropertiesSlider from '../../UI/PropertiesSlider';
+import SwiperSliderControllers from '../../UI/PropertiesSlider/Components/SwiperSliderControllers';
+import SectionHeader from '../../UI/SectionHeader';
 
 function DiscoverPropertiesSection() {
 

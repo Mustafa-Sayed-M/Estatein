@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from "swiper/modules";
-import PropertyCard from './PropertyCard';
+import PropertyCard from './Components/PropertyCard';
 
 function PropertiesSlider({ propertiesList = [], navigationPrevEle = "", navigationNextEle = "" }) {
     return (

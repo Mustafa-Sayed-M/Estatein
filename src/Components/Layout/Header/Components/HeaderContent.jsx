@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Statices from "../../Atoms/Statices";
+import Statices from "../../../UI/Statices";
 
 function HeaderContent() {
     return (

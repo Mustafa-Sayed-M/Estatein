@@ -1,5 +1,5 @@
-import SectionHeader from "../Components/SectionHeader";
 import howItWeWorkData from "../../../Data/howItWeWorkData.json";
+import SectionHeader from "../../UI/SectionHeader";
 import HowItWeWorkCard from "./Components/HowItWeWorkCard";
 
 function HowItWeWorkSection() {

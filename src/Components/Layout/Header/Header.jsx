@@ -1,4 +1,4 @@
-import FeaturesSection from "../Sections/FeaturesSection/FeaturesSection";
+import FeaturesSection from "../../Sections/FeaturesSection";
 import HeaderContent from "./Components/HeaderContent";
 import HeaderHero from "./Components/HeaderHero";
 

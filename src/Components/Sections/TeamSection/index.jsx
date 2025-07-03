@@ -1,5 +1,5 @@
-import SectionHeader from "../Components/SectionHeader";
 import teamData from '../../../Data/teamData.json';
+import SectionHeader from '../../UI/SectionHeader';
 import TeamCard from "./Components/TeamCard";
 
 function TeamSection() {

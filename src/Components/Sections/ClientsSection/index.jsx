@@ -1,9 +1,9 @@
-import SectionHeader from "../Components/SectionHeader";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperSliderControllers from "../Components/SwiperSliderControllers";
 import clientsData from "../../../Data/clientsData.json";
 import { Navigation } from "swiper/modules";
 import ClientCard from "./Components/ClientCard";
+import SectionHeader from '../../UI/SectionHeader';
+import SwiperSliderControllers from '../../UI/PropertiesSlider/Components/SwiperSliderControllers';
 
 function ClientsSection() {
 

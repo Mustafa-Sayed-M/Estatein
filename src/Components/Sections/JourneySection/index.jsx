@@ -1,5 +1,5 @@
-import Statices from "../../Atoms/Statices";
-import SectionHeader from "../Components/SectionHeader";
+import SectionHeader from "../../UI/SectionHeader";
+import Statices from "../../UI/Statices";
 
 function JourneySection() {
     return (
